@@ -4,17 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb0991bd-0028-4362-bb02-27f2b43ae2bd" name="更改" comment="9月17号晚上P6end">
-      <change afterPath="$PROJECT_DIR$/my-project-backend/src/main/java/com/example/config/WebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project-backend/src/main/java/com/example/entity/dto/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project-backend/src/main/java/com/example/mapper/AccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project-backend/src/main/java/com/example/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project-backend/src/main/java/com/example/service/impl/AccountServiceImpl.java" afterDir="false" />
+    <list default="true" id="fb0991bd-0028-4362-bb02-27f2b43ae2bd" name="更改" comment="连接数据库">
+      <change afterPath="$PROJECT_DIR$/my-project-backend/src/main/java/com/example/entity/BaseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project-backend/src/main/java/com/example/filiter/CorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project-frontend/src/net/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project-frontend/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project-frontend/src/views/WelcomeView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project-frontend/src/views/welcome/LoginPage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-project-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-project-backend/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-project-backend/src/main/java/com/example/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-project-backend/src/main/java/com/example/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-backend/src/main/java/com/example/entity/dto/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-project-backend/src/main/java/com/example/entity/dto/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-backend/src/main/java/com/example/utils/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-project-backend/src/main/java/com/example/utils/Const.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-project-backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-project-backend/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-project-backend/src/test/java/com/example/MyProjectBackendApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-project-backend/src/test/java/com/example/MyProjectBackendApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-project-frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-project-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-project-frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/src/assets/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/src/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/src/assets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/src/components/TheWelcome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/src/components/WelcomeItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/src/components/icons/IconCommunity.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/src/components/icons/IconDocumentation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/src/components/icons/IconEcosystem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/src/components/icons/IconSupport.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/src/components/icons/IconTooling.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project-frontend/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project-frontend/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project-frontend/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +43,14 @@
       <list>
         <option value="Record" />
         <option value="Interface" />
+        <option value="Vue Composition API Component" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/my-project-backend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,32 +67,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;80c6b4d10458cd7c10aaf1f192f55c13&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDK",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "80c6b4d10458cd7c10aaf1f192f55c13",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.entity.vo.response" />
@@ -118,8 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyProjectBackendApplicationTests.contextLoads" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="JUnit.MyProjectBackendApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +157,8 @@
       <updated>1694918271210</updated>
       <workItem from="1694918272939" duration="14116000" />
       <workItem from="1695002144773" duration="1289000" />
-      <workItem from="1695004945575" duration="2435000" />
+      <workItem from="1695004945575" duration="2529000" />
+      <workItem from="1695468862060" duration="9157000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <option name="closed" value="true" />
@@ -159,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694964882825</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="连接数据库">
+      <option name="closed" value="true" />
+      <created>1695008515005</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695008515005</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,9 +203,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="SHOW_ROOT_NAMES" value="true" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -182,6 +213,7 @@
     <MESSAGE value="项目初始化" />
     <MESSAGE value="配置springSecurity基本内容" />
     <MESSAGE value="9月17号晚上P6end" />
-    <option name="LAST_COMMIT_MESSAGE" value="9月17号晚上P6end" />
+    <MESSAGE value="连接数据库" />
+    <option name="LAST_COMMIT_MESSAGE" value="连接数据库" />
   </component>
 </project>
